@@ -25,3 +25,9 @@ $ rebar3 sessiontypechecker
 ===> Compiling sessiontypechecker
 <Plugin Output>
 ```
+
+## Examples
+
+Here's a list of sample projects to demonstrate the use of this plugin:
+
+* [Client-seller-bank example](https://github.com/lauramcastro/client_seller_bank): a client and a seller that interact with each other, with possible intervention of a third party (the bank).
