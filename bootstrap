@@ -1,0 +1,17 @@
+clean() {
+    cp -r .clean/* .
+}
+
+"$@"
+
+bootstraping() {
+    REPO_NAME=$(basename `git rev-parse --show-toplevel`)
+    README=README
+    GIT_URL=$(git config --get remote.origin.url)
+
+    if [ "$1" == "clean" ]; then
+        return 0
+    fi
+}
+
+bootstraping "$@"
