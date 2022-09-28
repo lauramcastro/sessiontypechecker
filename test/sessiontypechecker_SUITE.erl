@@ -1,4 +1,4 @@
--module({{ repo-name }}_SUITE).
+-module(sessiontypechecker_SUITE).
 
 -behaviour(ct_suite).
 

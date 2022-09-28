@@ -1,5 +1,5 @@
-%%% @doc Main entry point for the rebar3 {{ repo-name }} plugin.
--module({{ repo-name }}).
+%%% @doc Main entry point for the rebar3 sessiontypechecker plugin.
+-module(sessiontypechecker).
 
 -export([init/1]).
 
@@ -11,5 +11,5 @@
 
 -spec init(rebar_state:t()) -> {ok, rebar_state:t()}.
 init(State) ->
-    {ok, State1} = {{ repo-name }}_prv:init(State),
+    {ok, State1} = sessiontypechecker_prv:init(State),
     {ok, State1}.

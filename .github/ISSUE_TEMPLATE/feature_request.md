@@ -1,13 +1,13 @@
 ---
 name: Feature request
-about: Suggest an idea for {{ repo-name }}
+about: Suggest an idea for sessiontypechecker
 title: ''
 labels: ''
 assignees: ''
 ---
 
-## `{{ repo-name }}` version
-[Put release version here and update tag link(0.0.0)...]({{ git-url }})
+## `sessiontypechecker` version
+[Put release version here and update tag link(0.0.0)...](git@github.com:lauramcastro/sessiontypechecker.git)
 
 ## `OS` version
 <!-- Put the `OS` version ... -->
