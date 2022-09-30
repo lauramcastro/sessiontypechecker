@@ -31,3 +31,4 @@ $ rebar3 sessiontypechecker
 Here's a list of sample projects to demonstrate the use of this plugin:
 
 * [Client-seller-bank example](https://github.com/lauramcastro/client_seller_bank): a client and a seller that interact with each other, with possible intervention of a third party (the bank).
+* [Three buyers example](https://github.com/lauramcastro/three_buyers): two buyers interact with a seller, with intervention of a third party (another buyer).
